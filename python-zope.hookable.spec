@@ -9,12 +9,12 @@
 Summary:	Zope hookable module
 Summary(pl.UTF-8):	Moduł Zope hookable
 Name:		python-%{module}
-Version:	5.1.0
-Release:	3
+Version:	5.4
+Release:	1
 License:	ZPL v2.1
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/z/zope.hookable/zope.hookable-%{version}.tar.gz
-# Source0-md5:	a285ced08f26924113ac04a39650ee3d
+# Source0-md5:	2d7a36d27b53c8c33cb938fdcdf62796
 URL:		https://www.zope.dev/
 %if %{with python2}
 BuildRequires:	python >= 1:2.7
